@@ -1,5 +1,5 @@
 import { Suspense } from 'react';
-import { useLoaderData, json, defer, Await } from 'react-router-dom';
+import { useLoaderData, Await } from 'react-router-dom';
 
 import EventsList from '../components/EventsList';
 
@@ -25,7 +25,7 @@ async function loadEvents() {
     // throw new Response(JSON.stringify({ message: 'Could not fetch events.' }), {
     //   status: 500,
     // });
-    throw json(
+    throw new Response(
       { message: 'Could not fetch events.' },
       {
         status: 500,
@@ -38,7 +38,7 @@ async function loadEvents() {
 }
 
 export function loader() {
-  return defer({
+  return({
     events: loadEvents(),
   });
 }

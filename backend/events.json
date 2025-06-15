@@ -1,12 +1,1 @@
-{
-  "events": [
-    {
-      "title": "A new event",
-      "image": "https://cdn.muenchen-p.de/fl_progressive,q_65/.imaging/stk/responsive/teaser300/dms/va-2016/muenchner-christkindlmarkt/christkindlmarkt-marienplat-logo-hp/document/christkindlmarkt-marienplat-logo-hp.jpg",
-      "date": "2022-10-01",
-      "description": "Some awesome event!",
-      "id": "2a42fcc4-ea21-4bdd-abf6-c40006dc66a9"
-    }
-  ],
-  "users": []
-}
+{"events":[{"title":"google summit","image":"https://dicoding-assets.sgp1.cdn.digitaloceanspaces.com/blog/wp-content/uploads/2023/07/blog-summit-min-scaled.jpg","date":"2025-06-19","description":"dave","id":"b0dbad75-b5df-4432-ae09-56eb67b18f24"}],"users":[{"email":"admin@admin.com","password":"$2a$12$nELn2lrMF5F2Ejqy2e3QWOqgb4WcRUvGO2V5QP0xG70X0V41qVavK","id":"16af4fc3-17d9-495a-9df0-2430aaa44b92"},{"email":"davemantul123456@gmail.com","password":"$2a$12$Nu3H8qnKt86VGQlkU1.8V.2Xog5FzQ9vrvFqcIgcGCa9GXEZ6MfKC","id":"5c6e816b-4a54-4b60-b23c-88fe62021855"},{"email":"crdakries01@gmail.com","password":"$2a$12$FNqlGsm4tm3mQqppMceipeN4CClGnicZqiAb8N5XX.gocFi05Q5Nu","id":"e8c8f19f-a9f2-4f26-aeb8-e209a5da65be"}]}
